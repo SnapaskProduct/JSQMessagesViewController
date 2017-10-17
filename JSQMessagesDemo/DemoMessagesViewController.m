@@ -673,7 +673,7 @@
     NSLog(@"Tapped cell at %@!", NSStringFromCGPoint(touchLocation));
 }
 
-#pragma mark - JSQMessagesComposerTextViewPasteDelegate methods
+/*#pragma mark - JSQMessagesComposerTextViewPasteDelegate methods
 
 
 - (BOOL)composerTextView:(JSQMessagesComposerTextView *)textView shouldPasteWithSender:(id)sender
@@ -690,6 +690,6 @@
         return NO;
     }
     return YES;
-}
+}*/
 
 @end

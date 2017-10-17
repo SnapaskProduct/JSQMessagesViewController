@@ -23,7 +23,7 @@
 /**
  *  A delegate object used to notify the receiver of paste events from a `JSQMessagesComposerTextView`.
  */
-@protocol JSQMessagesComposerTextViewPasteDelegate <NSObject>
+//@protocol JSQMessagesComposerTextViewPasteDelegate <NSObject>
 
 /**
  *  Asks the delegate whether or not the `textView` should use the original implementation of `-[UITextView paste]`.
@@ -32,9 +32,9 @@
  *  You should return `NO` when you want to handle pasting. 
  *  Return `YES` to defer functionality to the `textView`.
  */
-- (BOOL)composerTextView:(JSQMessagesComposerTextView *)textView shouldPasteWithSender:(id)sender;
+//- (BOOL)composerTextView:(JSQMessagesComposerTextView *)textView shouldPasteWithSender:(id)sender;
 
-@end
+//@end
 
 /**
  *  An instance of `JSQMessagesComposerTextView` is a subclass of `UITextView` that is styled and used 
@@ -55,7 +55,7 @@
 /**
  *  The object that acts as the paste delegate of the text view.
  */
-@property (weak, nonatomic) id<JSQMessagesComposerTextViewPasteDelegate> pasteDelegate;
+//@property (weak, nonatomic) id<JSQMessagesComposerTextViewPasteDelegate> pasteDelegate;
 
 /**
  *  Determines whether or not the text view contains text after trimming white space 
