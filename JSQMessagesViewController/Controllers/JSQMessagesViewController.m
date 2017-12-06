@@ -912,7 +912,7 @@ JSQMessagesKeyboardControllerDelegate>
 
     heightFromBottom = MAX(0.0, heightFromBottom);
 
-    [self jsq_setToolbarBottomLayoutGuideConstant:heightFromBottom];
+    [self jsq_setToolbarBottomLayoutGuideConstant:-heightFromBottom];
 }
 
 - (void)jsq_setToolbarBottomLayoutGuideConstant:(CGFloat)constant
